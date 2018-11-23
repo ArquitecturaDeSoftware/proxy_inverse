@@ -1,7 +1,7 @@
 version: '2'
 services:
   academy-proxy:
-    image: jscastel97/proxy_inverse
+    image: jscastel97/proxy_inverse  
     depends_on:
       - api-gateway
     ports:
